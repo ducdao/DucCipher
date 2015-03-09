@@ -28,7 +28,7 @@ public class DucEncrypt
 			{
 				if(beforeEncrypt[i] == abc[j])
 				{
-					encrypt.add(j << 4);
+					encrypt.add(j);
 				}
 			}
 		}
